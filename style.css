@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box
+}
+body{
+    background-color: #0A0000;
+    color: 	#D6D6D4;
+}
+.container{
+/*    border: 1px solid black;*/
+    margin: 20px auto;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    
+}
+.left{
+    position: relative;
+    width: 8%;
+    height: 450px;
+/*    border: 1px solid black;*/
+    float: left;
+    background-color: 	#1D1E20;
+    margin: auto;
+    display: flex;
+}
+.left-info{
+    margin: auto;
+/*    border: 1px solid black;*/
+    height: 80%;
+    width: 50%;
+}
+.left-info div{
+    width: 20px;
+    height: 20px;
+    margin: 100% auto;
+/*    border: 1px solid black;*/
+    
+}
+.left-info img{
+    width: 20px;
+    height: 20px;
+}
+.middle{
+    position: relative;
+/*    border: 1px solid black;*/
+    width: 42%;
+    height: 500px;
+    float: left;
+    background-color: 	#1D1E20;
+/*
+    background-image: url(img/IMG_20180911_105729.jpg);
+    background-size: cover;
+*/
+}
+.name{ 
+    margin-top: 100%;
+}
+.name,.position,.social{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+.social a img{
+    width: 15px;
+    height: 15px;
+    margin: 2px;
+}
+.right{
+    position: relative;
+/*    border: 1px solid black;*/
+    width: 50%;
+    height: 450px;
+    float: left;
+    background-color: 	#1D1E20;
+    overflow-y: scroll;
+    margin: auto;
+    padding-left: 20px;    
+}
+.right h1{
+    margin-top: 10px;
+}
+.right h5{ 
+    margin-top: 10px;
+}
+.right > p{ 
+    margin-top: 10px;
+}
+.right hr{
+    color: blue;
+    height: 2px;
+    width: 90%;
+    margin: 10px auto;
+}
+.services{
+    position: relative;
+    width: 90%;
+/*    border: 1px solid black;*/
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.service{
+/*    border: 1px solid black;*/
+    width: 50%;
+    height: 150px;
+}.service img{
+    width: 15px;
+    height: 15px;
+    margin: 10px
+}
